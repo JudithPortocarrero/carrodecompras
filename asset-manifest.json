@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/carrodecompras/static/css/main.9b579450.chunk.css",
+    "main.js": "/carrodecompras/static/js/main.38eaa36d.chunk.js",
+    "main.js.map": "/carrodecompras/static/js/main.38eaa36d.chunk.js.map",
+    "runtime-main.js": "/carrodecompras/static/js/runtime-main.4dfc7079.js",
+    "runtime-main.js.map": "/carrodecompras/static/js/runtime-main.4dfc7079.js.map",
+    "static/js/2.81ae36d1.chunk.js": "/carrodecompras/static/js/2.81ae36d1.chunk.js",
+    "static/js/2.81ae36d1.chunk.js.map": "/carrodecompras/static/js/2.81ae36d1.chunk.js.map",
+    "index.html": "/carrodecompras/index.html",
+    "precache-manifest.bebd6006be87206262aa2aaedc830fee.js": "/carrodecompras/precache-manifest.bebd6006be87206262aa2aaedc830fee.js",
+    "service-worker.js": "/carrodecompras/service-worker.js",
+    "static/css/main.9b579450.chunk.css.map": "/carrodecompras/static/css/main.9b579450.chunk.css.map",
+    "static/js/2.81ae36d1.chunk.js.LICENSE.txt": "/carrodecompras/static/js/2.81ae36d1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4dfc7079.js",
+    "static/js/2.81ae36d1.chunk.js",
+    "static/css/main.9b579450.chunk.css",
+    "static/js/main.38eaa36d.chunk.js"
+  ]
+}
