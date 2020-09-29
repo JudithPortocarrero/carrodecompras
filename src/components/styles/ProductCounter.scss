@@ -1,0 +1,9 @@
+@import '../../plantilla';
+
+.controladorContador{
+    @include flex;
+}
+.contPrecio{
+    @include flex;
+    text-align: right;
+}

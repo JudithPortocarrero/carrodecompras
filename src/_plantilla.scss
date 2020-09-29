@@ -1,0 +1,11 @@
+@mixin anchoalto100 {
+    width: 100%;
+    height: 100%;
+}
+@mixin anchoAlto ($width, $height) {
+    width: $width;
+    height: $height; 
+}
+@mixin flex {
+    display: flex;
+}

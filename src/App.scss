@@ -1,0 +1,82 @@
+@import './plantilla';
+
+html, body{
+    height:100%;
+    margin:0;
+    flex-direction: column;
+}
+.PaginaHome{
+    @include anchoalto100;
+}
+@mixin centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    @include anchoAlto(100%, 50px);
+    background: #008F95;
+    text-align: center;    
+    font-size: 30px;
+    @include centrado;
+    color: white;
+}
+.cuerpoPagina{
+    @include anchoalto100;
+    @include flex;
+    flex-direction: row;
+}
+.listaProductos,
+.titulo{
+    font-size: 25px;
+    @include flex;
+    justify-content: center;
+    margin: 10px 0 10px 0;  
+}
+.productos{
+    @include anchoAlto(70%, 100%);
+}
+.mostradorPedidos{
+    @include anchoalto100;
+}
+.contenedorPedido{
+    width: 30%;
+    background: #CAEBF2;
+}
+.descripcionPedido{
+    @include anchoAlto(100%, 60%);
+    @include flex;
+    align-items: flex-start;
+}
+.total{
+    align-self: flex-end;
+    font-size: 20px;
+}
+.botones{
+    margin-top: 25px;
+    width: 100%;
+    @include flex;
+    justify-content: space-around;
+}
+@mixin estilosbotones ($background,  $color) {
+    width: 30%;
+    font-size: 15px;
+    background: $background;
+    color: $color;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    border: 0;
+    outline:none;
+}
+.btnEnviar{
+    @include estilosbotones (#2EA44F,white);
+}
+.btnCancelar{
+    @include estilosbotones (white,#CB3544);
+}
+.descripcion,
+.contenedorTabla,
+.tabla{
+    width: 100%;
+}

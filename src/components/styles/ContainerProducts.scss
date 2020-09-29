@@ -1,0 +1,8 @@
+@import '../../plantilla';
+
+.contenedorProducto{
+    @include anchoalto100;
+    @include flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

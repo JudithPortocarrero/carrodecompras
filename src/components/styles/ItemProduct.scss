@@ -1,0 +1,37 @@
+@import '../../plantilla';
+
+p{
+    margin: 5px;
+}
+.contenedorItemProducto{
+    width: 27%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.contenedorImagen{
+    @include anchoalto100;
+}
+.imagenProducto{
+    @include anchoalto100;
+}
+.contenedorNombre{
+    @include anchoAlto(100%, 20%);
+    text-align: center;
+}
+.ContainerPrecio{
+    @include anchoAlto(100%, 15%);
+    text-align: center;
+}
+.btnAgregarPrducto{
+    width: 70%;
+    padding: 10px 15px 10px 15px;
+    background: #FC4A1A;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    font-size: 15px;
+    outline:none;
+}
